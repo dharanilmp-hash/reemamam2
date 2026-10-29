@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Reema Chowdhary · Humanities, Film &amp; Digital Heritage</title>
+    <meta
+      name="description"
+      content="Academic profile of Dr. Reema Chowdhary — Centre Administrator at the JPN Centre, IIT Indore. Film studies, digital humanities, and cultural heritage."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Tiro+Devanagari+Hindi:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <canvas id="dust" aria-hidden="true"></canvas>
+    <div class="textile-wash" aria-hidden="true"></div>
+
+    <header class="navbar" id="navbar">
+      <a class="brand" href="#home">
+        <img src="assets/reema.jpg" alt="Dr. Reema Chowdhary" />
+        <span>
+          <strong>Dr. Reema Chowdhary</strong>
+          <small>JPN Centre · IIT Indore</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <div class="nav-item has-drop">
+          <a href="#home">Home</a>
+          <div class="drop">
+            <a href="#home">Overview</a>
+            <a href="#highlights">Highlights</a>
+          </div>
+        </div>
+        <div class="nav-item has-drop">
+          <a href="#about">About</a>
+          <div class="drop">
+            <a href="#about">Biography &amp; Experience</a>
+            <a href="#experience">Appointments</a>
+            <a href="#honors">Honors &amp; Recognitions</a>
+            <a href="#service">Memberships &amp; Service</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="education.html">Education</a>
+        </div>
+        <div class="nav-item has-drop">
+          <a href="#research">Research &amp; Publications</a>
+          <div class="drop">
+            <a href="#research">Research Focus</a>
+            <a href="#publications">Journal Publications</a>
+            <a href="#presentations">Papers Presented</a>
+            <a href="#publications">Conference Papers &amp; Chapters</a>
+            <a href="#projects">Research Lab / Ongoing Work</a>
+          </div>
+        </div>
+        <div class="nav-item has-drop">
+          <a href="#teaching">Teaching</a>
+          <div class="drop">
+            <a href="#courses">Courses &amp; Lecturing</a>
+            <a href="#mentorship">Mentorship</a>
+            <a href="#pedagogy">Pedagogical Practice</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="#projects">Projects</a>
+        </div>
+        <div class="nav-item">
+          <a href="#news">News &amp; Media</a>
+        </div>
+        <div class="nav-item">
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-bg" data-depth="0.18"></div>
+        <div class="hero-overlay" data-depth="0.08"></div>
+        <div class="hero-frame">
+          <h1 class="hero-name">
+            <span class="honorific">Dr.</span>
+            <span class="given">Reema</span>
+            <span class="surname">Chowdhary</span>
+          </h1>
+          <p class="hero-kicker">
+            <span class="dot"></span>
+            <span class="kicker-lines">
+              <span>CWIT Fellow, Centre Administrator JPN National Centre</span>
+              <span>Culture &amp; Heritage, Digital Archives, Film Studies</span>
+            </span>
+          </p>
+          <div class="hero-actions">
+            <a class="btn gold" href="https://scholar.google.com/citations?user=R5XHH7EAAAAJ&amp;hl=en" target="_blank" rel="noopener">Research &amp; Publications</a>
+          </div>
+        </div>
+        <figure class="hero-portrait">
+          <div class="portrait-ring">
+            <img src="assets/reema.jpg" alt="Portrait of Dr. Reema Chowdhary" />
+          </div>
+          <figcaption>JPN Centre · IIT Indore</figcaption>
+        </figure>
+        <p class="hero-watermark" aria-hidden="true">विरासत</p>
+      </section>
+
+      <section class="metrics" id="highlights" aria-label="Google Scholar metrics">
+        <div class="metric">
+          <em>24</em>
+          <span>Citations</span>
+          <small>Google Scholar · all years</small>
+        </div>
+        <div class="metric">
+          <em>21</em>
+          <span>Since 2021</span>
+          <small>Recent citation pulse</small>
+        </div>
+        <div class="metric">
+          <em>3</em>
+          <span>h-index</span>
+          <small>Largest h with h citations</small>
+        </div>
+        <div class="metric constellation">
+          <div class="stars" id="stars"></div>
+          <span>A constellation of cited works</span>
+        </div>
+      </section>
+
+      <section class="folio" id="about">
+        <div class="folio-index">
+          <span>About</span>
+          <h2>Biography &amp; experience</h2>
+          <p class="dev">स्तरों के नीचे स्मृति</p>
+        </div>
+        <div class="about-grid">
+          <figure class="about-plate">
+            <div class="portrait-ring">
+              <img src="assets/reema.jpg" alt="Dr. Reema Chowdhary" />
+            </div>
+            <figcaption>Scholar of cinema, language, archive</figcaption>
+          </figure>
+          <div class="about-copy">
+            <p class="bio-lead">Tracing Stories, Reimagining Archives, Connecting Humanities and Technology</p>
+            <p>
+              Dr. Reema Chowdhary is the <strong>Centre Administrator at the JPN National Centre of Excellence in the Humanities, Indian Institute of Technology Indore</strong>. Her interdisciplinary work spans Digital Humanities, film studies, cultural heritage, multilingual publishing, and cultural memory, exploring how narratives are represented, preserved, and reinterpreted through digital technologies.
+            </p>
+            <p>
+              She holds a PhD in English and Film Studies from IIT Indore, where her research examined Indian biopics as historical palimpsests, investigating how cinema reshapes historical narratives and collective memory. Her current research explores digital archives, multilingual knowledge systems, and the preservation of marginalised literary traditions, including Sindhi literature and folklore. Through initiatives such as <em>Sindhi Sanchaya</em>, she contributes to making dispersed cultural heritage more accessible.
+            </p>
+            <p>
+              Her scholarly work has appeared in journals including the <em>Journal of Electronic Publishing</em>, <em>Archival Science</em>, <em>Preservation, Digital Technology &amp; Culture</em>, <em>South Asian Popular Culture</em>, and <em>Quarterly Review of Film and Video</em>. Her book, <em>Indian Biopics as Historical Palimpsest</em>, is forthcoming with Routledge India. She is Associate Editor of <em>Digital Humanities Intersections</em> and a reviewer for the <em>Journal of Cultural Analytics</em>.
+            </p>
+            <p>
+              A recipient of the <strong>British Council Charles Wallace India Trust Fellowship</strong>, she was a Visiting Research Fellow at Nottingham Trent University, UK, in 2017. Her experience spans teaching, research, publishing, and academic administration.
+            </p>
+            <p>
+              At JPN Centre, IIT Indore, she works at the intersection of research development, digital scholarship, and cultural heritage initiatives. Across her work, she explores a central question: <strong>How can we preserve not just cultural materials, but also the histories, voices, and relationships that give them meaning?</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class="split-block" id="experience">
+          <h3>Appointments</h3>
+          <ol class="path">
+            <li>
+              <time>Present</time>
+              <div>
+                <h3>Centre Administrator</h3>
+                <p>JPN National Centre of Excellence in the Humanities, IIT Indore.</p>
+              </div>
+            </li>
+            <li>
+              <time>2023–Aug 2025</time>
+              <div>
+                <h3>Postdoctoral Fellow, Digital Humanities</h3>
+                <p>Jayaprakash Narayan Centre of Excellence in the Humanities, IIT Indore.</p>
+              </div>
+            </li>
+            <li>
+              <time>2019–2023</time>
+              <div>
+                <h3>Assistant Professor (Communication)</h3>
+                <p>Narsee Monjee Institute of Management Studies (NMIMS), Indore.</p>
+              </div>
+            </li>
+            <li>
+              <time>2011–2013</time>
+              <div>
+                <h3>Academic Associate, General Management–Communication</h3>
+                <p>Indian Institute of Management Indore.</p>
+              </div>
+            </li>
+            <li>
+              <time>2009–2012</time>
+              <div>
+                <h3>Language lab &amp; visiting faculty, DAVV</h3>
+                <p>Coordinator, English Language Lab, School of Computer Science &amp; IT (2009–2011). Visiting faculty at SCSIT (2009–2012), Institute of Engineering and Technology (2009–2011), Shri Vaishnav Institute of Management, School of Commerce, and School of Pharmacy (2009–2010).</p>
+              </div>
+            </li>
+            <li>
+              <time>2006</time>
+              <div>
+                <h3>Full-time faculty</h3>
+                <p>Medi-Caps Institute of Technology, Indore.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="split-block" id="honors">
+          <h3>Honors, awards &amp; recognitions</h3>
+          <div class="honor-grid">
+            <article>
+              <h4>Charles Wallace India Trust Fellowship</h4>
+              <p>British Council, 2017.</p>
+            </article>
+            <article>
+              <h4>Visiting Research Fellow</h4>
+              <p>Nottingham Trent University, United Kingdom, 2017.</p>
+            </article>
+            <article>
+              <h4>Postdoctoral Fellowship</h4>
+              <p>Digital Humanities, JPN Centre of Excellence in the Humanities, IIT Indore, 2023–August 2025.</p>
+            </article>
+            <article>
+              <h4>Book under publication</h4>
+              <p><cite>Indian Biopics as Historical Palimpsest</cite>, Routledge India.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="split-block" id="service">
+          <h3>Professional memberships &amp; service</h3>
+          <ul class="plain-list">
+            <li>Associate Editor, <a href="https://dhi.iiti.ac.in/index.php/dhjournal/about/editorialTeam" target="_blank" rel="noopener">Digital Humanities Intersections</a></li>
+            <li>Reviewer, <em>Journal of Cultural Analytics</em></li>
+            <li>Website administration, <a href="https://jpnnationalcentre.com/" target="_blank" rel="noopener">JPN National Centre</a></li>
+            <li>Co-editor (with Prof. Nirmala Menon) of a volume on multilingualism and digital humanities</li>
+            <li>Consultancy (2021): competency mapping with the PCMM framework for Hotel Daksh Residency, Indore; corporate communication, HR policy, and training-need identification for A-One Products</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="folio" id="research">
+        <div class="folio-index">
+          <span>Research</span>
+          <h2>Research focus</h2>
+          <p class="dev">चार सूत्र, एक ताना-बाना</p>
+        </div>
+        <div class="threads">
+          <article class="thread">
+            <span class="thread-no">I</span>
+            <h3>Visual palimpsest</h3>
+            <p>
+              Biopics such as <em>Bandit Queen</em> and <em>Jodhaa Akbar</em> are read as nationalist
+              palimpsests — images that overwrite, yet still leak, older social hegemonies.
+            </p>
+          </article>
+          <article class="thread">
+            <span class="thread-no">II</span>
+            <h3>Muslim identity on screen</h3>
+            <p>
+              Representation in Deepa Mehta’s <em>Earth</em> and Abhishek Kapoor’s <em>Kai Po Che</em> —
+              how popular film carries minority memory after Partition and Gujarat 2002.
+            </p>
+          </article>
+          <article class="thread">
+            <span class="thread-no">III</span>
+            <h3>Multilingual scholarship</h3>
+            <p>
+              India’s scheduled languages cannot live in a monolingual academy. KSHIP, OCR, and open
+              infrastructures become acts of epistemic justice.
+            </p>
+          </article>
+          <article class="thread">
+            <span class="thread-no">IV</span>
+            <h3>Folklore as living archive</h3>
+            <p>
+              Sindhi libraries after Partition and heritage-site sentiment — folklore not as relic,
+              but as a language still trying to belong.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="folio" id="publications">
+        <div class="folio-index">
+          <span>Publications</span>
+          <h2>Journals, essays &amp; the dissertation</h2>
+          <p class="dev">सूची · cited by 24</p>
+        </div>
+        <div class="works-toolbar">
+          <button class="filter is-on" data-filter="all">All works</button>
+          <button class="filter" data-filter="film">Film &amp; culture</button>
+          <button class="filter" data-filter="heritage">Heritage &amp; DH</button>
+          <button class="filter" data-filter="lit">Literature</button>
+        </div>
+        <div class="catalogue" id="catalogue">
+          <article class="card" data-kind="heritage" style="--i: 1">
+            <header><span class="year">2026</span><span class="cites">new</span></header>
+            <h3>Archiving frictions: Sindhi libraries and the struggle for belonging in India</h3>
+            <p class="venue">Archival Science 26, 5</p>
+            <p class="authors">S. Wadhwa, R. Chowdhary</p>
+            <a class="card-link" href="https://doi.org/10.1007/s10502-025-09525-6" target="_blank" rel="noopener">DOI 10.1007/s10502-025-09525-6</a>
+          </article>
+          <article class="card" data-kind="film" style="--i: 2">
+            <header><span class="year">Forthcoming</span><span class="cites">book</span></header>
+            <h3>Indian Biopics as Historical Palimpsest</h3>
+            <p class="venue">Routledge India · under publication</p>
+            <p class="authors">R. Chowdhary</p>
+          </article>
+          <article class="card" data-kind="heritage" style="--i: 2">
+            <header><span class="year">2023</span><span class="cites">chapter</span></header>
+            <h3>A Transformer-Based Sentiment Analysis of Cultural Heritage Sites</h3>
+            <p class="venue">Emerging Digitalisation Trends in Business and Management: A Roadmap to Industry 5.0 · AAP / CRC Press</p>
+            <p class="authors">R. Chowdhary, N. Rajpurohit</p>
+          </article>
+          <article class="card featured" data-kind="heritage" style="--i: 3">
+            <header><span class="year">2024</span><span class="cites">8 cites</span></header>
+            <h3>Shifting paradigms of multilingual publishing and scholarship in India</h3>
+            <p class="venue">The Journal of Electronic Publishing 27 (1)</p>
+            <p class="authors">R. Chowdhary · corresponding author</p>
+            <a class="card-link" href="https://doi.org/10.3998/jep.5592" target="_blank" rel="noopener">DOI 10.3998/jep.5592</a>
+          </article>
+          <article class="card" data-kind="heritage" style="--i: 4">
+            <header><span class="year">2024</span><span class="cites">2 cites</span></header>
+            <h3>Digital technology for literature revitalization: A framework for Sindhi libraries in India</h3>
+            <p class="venue">Preservation, Digital Technology &amp; Culture 53 (4)</p>
+            <p class="authors">S. Wadhwa, R. Chowdhary</p>
+            <a class="card-link" href="https://doi.org/10.1515/pdtc-2024-0030" target="_blank" rel="noopener">DOI 10.1515/pdtc-2024-0030</a>
+          </article>
+          <article class="card" data-kind="heritage" style="--i: 5">
+            <header><span class="year">2021</span><span class="cites">—</span></header>
+            <h3>Effect of remote working on employee wellbeing: stress in SME workers during Covid-19</h3>
+            <p class="venue">Journal of Positive Psychology and Wellbeing 5 (3)</p>
+            <p class="authors">N. Rajpurohit, R. Chowdhary</p>
+          </article>
+          <article class="card featured" data-kind="film" style="--i: 6">
+            <header><span class="year">2018</span><span class="cites">5 cites</span></header>
+            <h3>Designing a visual palimpsest through film: Jodhaa Akbar and the nationalist narrative</h3>
+            <p class="venue">South Asian Popular Culture 16 (2–3)</p>
+            <p class="authors">R. Chowdhary, S. Arora, N. Menon</p>
+            <a class="card-link" href="https://doi.org/10.1080/14746689.2019.1565327" target="_blank" rel="noopener">DOI 10.1080/14746689.2019.1565327</a>
+          </article>
+          <article class="card featured" data-kind="film" style="--i: 7">
+            <header><span class="year">2018</span><span class="cites">3 cites</span></header>
+            <h3>Biopics as visual palimpsest: mapping social hegemonies in <em>Bandit Queen</em></h3>
+            <p class="venue">Quarterly Review of Film and Video 35 (8)</p>
+            <p class="authors">R. Chowdhary, N. Menon</p>
+            <a class="card-link" href="https://doi.org/10.1080/10509208.2017.1381005" target="_blank" rel="noopener">DOI 10.1080/10509208.2017.1381005</a>
+          </article>
+          <article class="card" data-kind="film" style="--i: 8">
+            <header><span class="year">2016</span><span class="cites">review</span></header>
+            <h3>Narratives of cosmopolitanism and hybridity</h3>
+            <p class="venue">Postcolonial Studies · review of Menon &amp; Preziuso</p>
+            <p class="authors">R. Chowdhary</p>
+            <a class="card-link" href="https://doi.org/10.1080/13688790.2016.1232144" target="_blank" rel="noopener">DOI 10.1080/13688790.2016.1232144</a>
+          </article>
+          <article class="card" data-kind="film" style="--i: 8">
+            <header><span class="year">2018</span><span class="cites">interview</span></header>
+            <h3>Resurrecting gender roles: an interview with Sampat Pal Devi</h3>
+            <p class="venue">Re-Markings 17 (1)</p>
+            <p class="authors">R. Chowdhary, I. W. Longkumer, N. Menon</p>
+          </article>
+          <article class="card" data-kind="lit" style="--i: 8">
+            <header><span class="year">2012</span><span class="cites">article</span></header>
+            <h3>Multiculturalism as an element in business communication</h3>
+            <p class="venue">International Journal of Multidisciplinary Educational Research 1 (2)</p>
+            <p class="authors">R. Sukhija</p>
+          </article>
+          <article class="card" data-kind="film" style="--i: 8">
+            <header><span class="year">2016</span><span class="cites">note</span></header>
+            <h3>Salaam</h3>
+            <p class="venue">South Asian Literary Association Newsletter 41 (1)</p>
+            <p class="authors">R. Chowdhary</p>
+          </article>
+          <article class="card" data-kind="film" style="--i: 9">
+            <header><span class="year">2016</span><span class="cites">2 cites</span></header>
+            <h3>Muslim identity and representation in Deepa Mehta’s <em>Earth</em> and Abhishek Kapoor’s <em>Kai Po Che</em></h3>
+            <p class="venue">Postcolonial Text 11 (2)</p>
+            <p class="authors">N. Menon, R. Chowdhary</p>
+          </article>
+          <article class="card" data-kind="lit" style="--i: 10">
+            <header><span class="year">2012</span><span class="cites">1 cite</span></header>
+            <h3>Thematic issues in James Joyce’s novels, with special reference to <em>Ulysses</em></h3>
+            <p class="venue">Research Journal of Humanities and Social Sciences 3 (3)</p>
+            <p class="authors">R. Sukhija</p>
+          </article>
+          <article class="card" data-kind="film" style="--i: 12">
+            <header><span class="year">2018</span><span class="cites">thesis</span></header>
+            <h3>Study of visual narratives: mapping the postcolonial Indian biopic as historical palimpsest</h3>
+            <p class="venue">Doctoral dissertation · IIT Indore</p>
+            <p class="authors">R. Chowdhary</p>
+          </article>
+        </div>
+        <div class="split-block" id="presentations">
+          <h3>Papers presented</h3>
+          <div class="news-list">
+            <article>
+              <time>2019</time>
+              <div>
+                <h3>From Devdas to Dev D</h3>
+                <p>A case for literary, cultural, and palimpsestuous adaptation. International Conference on Region/Nation/Trans-Nation: Literature–Cinema Interface, BITS Goa, 31 January–2 February 2019.</p>
+              </div>
+            </article>
+            <article>
+              <time>2015</time>
+              <div>
+                <h3>SALA, Vancouver</h3>
+                <p>“Translation Goes to Movies: Modeling Critical Discourse Analysis of Adaptation and Interpreting,” and, with W. Longkumer, “The Pink Sisterhood: Rural Activist into Bandits (Gulabi Gang vs. Gulaab Gang).” 15th Annual South Asian Literary Association Conference, 6–7 January 2015.</p>
+              </div>
+            </article>
+            <article>
+              <time>2014</time>
+              <div>
+                <h3>Fiction into film</h3>
+                <p>“Intertextuality and Fidelity in Deepa Mehta’s Midnight’s Children.” Researcher at Work Conference, University of Hyderabad, 10–12 September 2014. Also printed in <em>Salaam</em> 38 (2), Winter 2014, with the Kai Po Che / <em>Three Mistakes of My Life</em> note and the Gulabi Gang proceeding.</p>
+              </div>
+            </article>
+            <article>
+              <time>2011–12</time>
+              <div>
+                <h3>Language, culture, and the classroom</h3>
+                <p>Multiculturalism in business communication (Mata Jijabai Government Girls PG College, Indore); English as an international link language (School of Comparative Language, DAVV); Facebook and Twitter in business communication (4th CERE, IIM Indore); software tools in language learning (Indore Christian College); and computer-assisted language learning (Jagadguru Dattatray College of Technology, Indore).</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="folio" id="teaching">
+        <div class="folio-index">
+          <span>Teaching</span>
+          <h2>Teaching &amp; mentorship</h2>
+          <p class="dev">पाठशाला · भाषा प्रयोगशाला</p>
+        </div>
+        <div class="courses-block" id="courses">
+          <h3>Courses &amp; lecturing</h3>
+          <ul class="chips">
+            <li>Digital humanities</li>
+            <li>Adaptation studies</li>
+            <li>Cultural heritage</li>
+            <li>Publishing studies</li>
+            <li>South Asian studies</li>
+            <li>Sindhi literary archives</li>
+          </ul>
+        </div>
+        <div class="heritage-grid">
+          <article>
+            <h3>NMIMS Indore</h3>
+            <p>Assistant Professor (Communication), 2019–2023, at Narsee Monjee Institute of Management Studies — classroom teaching, course design, and mentoring.</p>
+          </article>
+          <article id="mentorship">
+            <h3>IIM Indore</h3>
+            <p>Academic Associate, General Management–Communication (2011–2013). Lecturing, coaching, lesson planning, and coordination. Paper at the 4th CERE Conference on Facebook and Twitter in business communication.</p>
+          </article>
+          <article id="pedagogy">
+            <h3>DAVV language lab</h3>
+            <p>Coordinator, English Language Lab, School of Computer Science &amp; IT (2009–2011), with visiting appointments at SCSIT, IET, commerce, pharmacy, and Shri Vaishnav Institute of Management. Published on computer-assisted language learning in English teaching (2012).</p>
+          </article>
+          <article>
+            <h3>Medi-Caps</h3>
+            <p>Full-time faculty, Medi-Caps Institute of Technology, Indore (2006), before the language-lab and management-school appointments.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="folio heritage" id="projects">
+        <div class="folio-index">
+          <span>Projects</span>
+          <h2>Projects &amp; field work</h2>
+          <p class="dev">लोककथा को मिटने नहीं देंगे</p>
+        </div>
+        <div class="heritage-grid cols-3" id="collaborations">
+          <article>
+            <h3>Sindhi Sanchaya</h3>
+            <p>A comprehensive, interactive database of a partitioned literature. Completed. <a href="https://www.sindhisanchaya.in/" target="_blank" rel="noopener">sindhisanchaya.in</a></p>
+          </article>
+          <article>
+            <h3>Sindhi folklore library</h3>
+            <p>Building a digital library of Sindhi folklore — safeguarding and integrating an intangible cultural heritage of India. Ongoing, with the library framework published with Soni Wadhwa in 2024 and the belonging essay in <em>Archival Science</em> (2026).</p>
+          </article>
+          <article>
+            <h3>Naga oral heritage</h3>
+            <p>Developing an alternative access to cultural heritage: a digital archive of Naga oral heritage. Ongoing.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="folio" id="news">
+        <div class="folio-index">
+          <span>News &amp; media</span>
+          <h2>Talks &amp; notices</h2>
+          <p class="dev">सभा · प्रस्तुति</p>
+        </div>
+        <div class="news-list">
+          <article>
+            <time>2025</time>
+            <div>
+              <h3>Workshop on research methodologies</h3>
+              <p>Invited speaker, Workshop on Research Methodologies in Interdisciplinary Humanities, 25–26 August 2025, IIT Indore.</p>
+            </div>
+          </article>
+          <article>
+            <time>2020</time>
+            <div>
+              <h3>Jamia Millia Islamia &amp; IIT Indore</h3>
+              <p>Invited expert, “Mapping Digital Humanities Practices in/on India: Access, Tools &amp; Criticism,” 16–18 October 2020. Plenary on modelling qualitative analysis for visual art forms, and session chair, at the SPARC conference “Confronting the ‘Global’, Exploring the ‘Local’,” 21–22 December 2020, with Michigan State University.</p>
+            </div>
+          </article>
+          <article>
+            <time>2025</time>
+            <div>
+              <h3>DH2025, Lisbon — conference support</h3>
+              <p>JPN Centre announcement of registration sponsorship for eight Indian scholars accepted at the ADHO Digital Humanities Conference.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="folio letter" id="contact">
+        <div class="folio-index">
+          <span>Contact</span>
+          <h2>Get in touch</h2>
+          <p class="dev">पत्राचार</p>
+        </div>
+        <div class="contact-grid">
+          <div class="letter-wrap">
+            <img class="letter-seal" src="assets/reema.jpg" alt="Dr. Reema Chowdhary" />
+            <blockquote>
+              If you are building an archive, a syllabus, a translation, or a digital home for a
+              language that the internet still treats as optional — write.
+            </blockquote>
+            <div class="contacts">
+              <a href="mailto:rsukhija@iiti.ac.in">rsukhija@iiti.ac.in</a>
+              <a href="mailto:centre.administratorjpn@iiti.ac.in">centre.administratorjpn@iiti.ac.in</a>
+              <a href="mailto:reema.sukhija@gmail.com">reema.sukhija@gmail.com</a>
+              <a href="tel:+919826015531">+91 98260 15531</a>
+              <a href="https://scholar.google.com/citations?hl=en&user=R5XHH7EAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/dr-reema-chowdhary-259bab33/" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://jpnnationalcentre.iiti.ac.in/" target="_blank" rel="noopener">JPN National Centre</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="colophon">
+      <p>Designed as a living palimpsest — cinema grain over folklore cloth over manuscript gold.</p>
+      <p>© <span id="year"></span> Dr. Reema Chowdhary · Academic profile</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
